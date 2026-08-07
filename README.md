@@ -1,5 +1,9 @@
 # ventura.apis
 
+![Apache-2.0](https://img.shields.io/github/license/chamseddinehiddoud/ventura.apis)
+![stars](https://img.shields.io/github/stars/chamseddinehiddoud/ventura.apis)
+![forks](https://img.shields.io/github/forks/chamseddinehiddoud/ventura.apis)
+
 Versão **Ventura** do clássico *public-apis* — curadoria original e enxuta de
 APIs públicas gratuitas para prototipagem, integração e estudo, com uma skill
 de replay determinístico para acelerar qualquer integração.
