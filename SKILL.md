@@ -1,5 +1,9 @@
 # Skill: ventura.apis — LOOP Skill Engine / Deterministic Replay
 
+![Apache-2.0](https://img.shields.io/github/license/chamseddinehiddoud/ventura.apis)
+![stars](https://img.shields.io/github/stars/chamseddinehiddoud/ventura.apis)
+![forks](https://img.shields.io/github/forks/chamseddinehiddoud/ventura.apis)
+
 Skill de descoberta e integração de APIs públicas com execução
 **determinística**: explore uma vez, compile a receita, replique com ~zero
 tokens, regenere quando a API (ou o projeto) mudar.
