@@ -1,51 +1,43 @@
 # ventura.apis
 
-![Apache-2.0](https://img.shields.io/github/license/chamseddinehiddoud/ventura.apis)
-![stars](https://img.shields.io/github/stars/chamseddinehiddoud/ventura.apis)
-![forks](https://img.shields.io/github/forks/chamseddinehiddoud/ventura.apis)
+![Status](https://img.shields.io/badge/status-curation%20%2B%20skill-blueviolet)
+![License](https://img.shields.io/github/license/venturalabs-ai/ventura.apis)
+![Stars](https://img.shields.io/github/stars/venturalabs-ai/ventura.apis)
 
-Versão **Ventura** do clássico *public-apis* — curadoria original e enxuta de
-APIs públicas gratuitas para prototipagem, integração e estudo, com uma skill
-de replay determinístico para acelerar qualquer integração.
+**Curadoria prática de APIs públicas e método determinístico para selecionar, documentar e reutilizar integrações.**
 
-> **Curadoria original** — este repositório seleciona e organiza APIs públicas
-> de forma própria; a lista exaustiva vive no projeto original (public-apis).
+## Classificação
 
-## O que é
+**Curation / Skill Repository.** Não é catálogo oficial de nenhum provedor e não garante disponibilidade, gratuidade ou estabilidade de APIs externas.
 
-Uma seleção prática por categoria, com critérios: gratuita, documentação
-clara, sem custo para testar e útil em projetos reais. Inclui a skill
-`SKILL.md` que transforma a integração de APIs em processo determinístico
-(explore uma vez → compile a receita → replique).
+## Referência upstream
 
-## Categorias curadas
+Inspirado por iniciativas comunitárias como `public-apis`, mantendo curadoria e estrutura próprias.
 
-| Categoria | O que encontrar | Exemplos de uso |
-|---|---|---|
-| **Clima** | previsão e dados meteorológicos | dashboards, alertas, apps de viagem |
-| **Dados abertos** | governo, CEP, geolocalização | formulários, validação, mapas |
-| **Finanças** | câmbio, criptomoedas, mercado | conversores, portfólio, cotação |
-| **Entretenimento** | jogos, filmes, música, citações | apps de conteúdo, bots |
-| **IA / ML** | visão, texto, tradução, imagem | assistentes, automação, protótipos |
-| **Desenvolvimento** | e-mail, QR code, placeholders | testes, MVP, ferramentas |
-| **Saúde** | dados e informações de saúde | estudos, protótipos, educação |
+## Escopo
 
-## Critérios da curadoria
+- clima e geodados;
+- finanças;
+- entretenimento;
+- IA/ML;
+- desenvolvimento;
+- dados abertos;
+- serviços de utilidade.
 
-1. **Gratuita** para testar (com ou sem chave gratuita)
-2. **Documentação** acessível e exemplos claros
-3. **Estável** — mantida e com uptime razoável
-4. **Útil** — resolve um problema real em protótipos e estudos
+## Método Ventura
 
-## Como usar (com a skill)
+`EXPLORE → COMPILE → REPLAY → REGENERATE`
 
-```text
-1. Modo EXPLORE  — defina a necessidade (ex.: "clima para meu dashboard")
-2. Modo COMPILE  — registre a receita: API escolhida, endpoint, chave, limite
-3. Modo REPLAY   — integre seguindo a receita, sem redecidir tudo de novo
-4. Modo REGENERATE — API mudou/caiu → regenere a escolha
-```
+Cada integração deve registrar endpoint, autenticação, limites, contrato de resposta e fallback antes de ser reutilizada.
+
+## Critérios de curadoria
+
+- documentação acessível;
+- utilidade prática;
+- condições de uso claras;
+- manutenção/estabilidade verificáveis;
+- preferência por APIs oficiais.
 
 ## Licença
 
-Apache License 2.0 — Copyright (c) 2026 Wemerson Mota de Oliveira.
+Consulte [LICENSE](LICENSE). APIs listadas mantêm seus próprios termos e licenças.
